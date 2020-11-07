@@ -4,7 +4,7 @@ Pymaceuticals Inc. specializes in anti-cancer drug regimens. Recently, Pymaceuti
 
 This script was built to compare the results of the 10 different drugs and to provide a more indepth analysis of the results produced by the drug Capomulin. Specifically the script completes the following tasks:
 
-      - Merged two datasets - MouseData.CSV and StudyResults.csv. The CSV titled "MouseData" contains mouse specific information including Mouse ID, Drug Regimen, Sex, Age, and Weight. The "StudyResults" CSV conains Mouse ID, Timepoints, Tumor Volume, and Metastatic Sites. The two            datasets are merged by "Mouse ID".
+- Merged two datasets - MouseData.CSV and StudyResults.csv. The CSV titled "MouseData" contains mouse specific information including Mouse ID, Drug Regimen, Sex, Age, and Weight. The "StudyResults" CSV conains Mouse ID, Timepoints, Tumor Volume, and Metastatic Sites. The two            datasets are merged by "Mouse ID".
       - Cleans the merged dataset to remove any duplicate information. 
       - Generates a summary statistics table showing the mean, median, mode, standard deviation and SEM of the overall tumor volume for each drug regimen. 
       - Generates two identical bar plots (using Pandas and Matplotlib Pyplot) that shows the total number of mice trials for each drug regimen. 
